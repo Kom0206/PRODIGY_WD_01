@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Lato:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font: 40px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background-color: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    /* background-image: url(img1.jpg); */
+    /* background-image: url(img2.jpg); */
+
+}
+
+/* .slider{
+  background-image: url(img1.jpg);
+} */
+
+nav a:hover,
+nav a.active{
+    color: aqua;
+}
+
+section{
+   
+  
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    background: #1f242d;
+    font-size: 100px;
+    color: white;
+    font-weight: 700;
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+section:nth-child(odd){
+    background-color: #334453;
+    background-image:url(img3.jpg);
+    background-repeat: no-repeat;
+}
+
+
